@@ -1,4 +1,4 @@
-const CACHE = 'deal-quest-v1';
+const CACHE = 'deal-quest-v2';
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'media/map-poster.jpg', 'media/walk-poster.jpg'];
 
 self.addEventListener('install', (event) => {

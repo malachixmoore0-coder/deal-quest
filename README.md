@@ -11,6 +11,10 @@ npm install
 npm start
 ```
 
+## Put it on an iPhone
+
+Import this repo at [vercel.com/new](https://vercel.com/new) and deploy it. The included `vercel.json` sets up the build. Open the Vercel link in Safari, tap Share, then choose Add to Home Screen. New pushes to `main` deploy automatically.
+
 ## Build the phone apps
 
 The project uses [Capacitor](https://capacitorjs.com/) to wrap the web app for Android and iOS.

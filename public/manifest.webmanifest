@@ -1,0 +1,15 @@
+{
+  "name": "Deal Quest",
+  "short_name": "Deal Quest",
+  "description": "Learn the BRRRR method for New York's Capital Region.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#100726",
+  "theme_color": "#100726",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

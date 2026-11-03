@@ -1,0 +1,23 @@
+{
+  "name": "deal-quest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A nine-level BRRRR real estate course for first-time investors in New York's Capital Region.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "npm run build && npx --yes serve dist",
+    "android": "npm run build && npx cap sync android && npx cap open android",
+    "ios": "npm run build && npx cap sync ios && npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "@fontsource/nunito": "^5.0.0",
+    "@fontsource/silkscreen": "^5.0.0"
+  }
+}
